@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagos December Events 2025</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f4f4f4; }
+        h1 { color: #2c3e50; }
+        .event { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .event h2 { margin-top: 0; color: #e74c3c; }
+        .no-events { color: #7f8c8d; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Upcoming Events in Lagos - December 2025</h1>
+
+    {% if events %}
+        {% for event in events %}
+        <div class="event">
+            <h2>{{ event.title }}</h2>
+            <p><strong>Venue:</strong> {{ event.venue.name }} ({{ event.venue.city }})</p>
+            <p><strong>Date:</strong> {{ event.start_date }} to {{ event.end_date }}</p>
+            <p><strong>Category:</strong> {{ event.category.name }}</p>
+            <p><strong>Price:</strong> 
+                {% if event.is_free %}Free{% else %}₦{{ event.ticket_price }}{% endif %}
+            </p>
+            <p>{{ event.description }}</p>
+            {% if event.image %}
+                <img src="{{ event.image.url }}" alt="{{ event.title }}" style="max-width: 100%; height: auto; border-radius: 8px;">
+            {% endif %}
+        </div>
+        {% endfor %}
+    {% else %}
+        <p class="no-events">No upcoming events yet. Add some in the admin panel!</p>
+    {% endif %}
+
+    <hr>
+    <p><a href="/admin/">Go to Admin</a> to add events, categories, and venues.</p>
+</body>
+</html>
