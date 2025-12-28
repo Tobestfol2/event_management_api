@@ -22,7 +22,7 @@ Admin controls for managing users and events
 Installation:
 Clone the repository:
 (bash)
-git clone https://github.com/yourusername/event-management-api.git
+git clone https://github.com/Tobestfol2/event-management-api.git
 cd event-management-api
 
 Running the Application
