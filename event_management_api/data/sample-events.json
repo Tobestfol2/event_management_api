@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Node.js Masterclass Workshop",
+    "description": "A hands-on workshop covering advanced Node.js concepts, performance optimization, and building scalable APIs.",
+    "date": "2026-02-20T09:00:00Z",
+    "endDate": "2026-02-20T17:00:00Z",
+    "location": "Online (Zoom)",
+    "capacity": 150,
+    "registeredCount": 0,
+    "category": "Technology",
+    "isFree": false,
+    "price": 89.99,
+    "imageUrl": "https://example.com/images/nodejs-workshop.jpg",
+    "status": "upcoming",
+    "organizer": {
+      "name": "Tech Academy",
+      "email": "info@techacademy.com"
+    }
+  },
+  {
+    "title": "Summer Music Festival 2026",
+    "description": "Three days of live music featuring local and international artists, food trucks, and art installations.",
+    "date": "2026-07-10T12:00:00Z",
+    "endDate": "2026-07-12T23:00:00Z",
+    "location": "Riverside Park, Austin, TX",
+    "capacity": 5000,
+    "registeredCount": 0,
+    "category": "Music",
+    "isFree": false,
+    "price": 149.00,
+    "imageUrl": "https://example.com/images/music-festival.jpg",
+    "status": "upcoming"
+  },
+  {
+    "title": "Free Community Yoga Session",
+    "description": "Beginner-friendly yoga in the park. Bring your mat and join us for a relaxing morning flow.",
+    "date": "2026-01-05T07:30:00Z",
+    "endDate": "2026-01-05T08:30:00Z",
+    "location": "Central Park, New York",
+    "capacity": 80,
+    "registeredCount": 0,
+    "category": "Wellness",
+    "isFree": true,
+    "imageUrl": "https://example.com/images/yoga-park.jpg",
+    "status": "upcoming"
+  },
+  {
+    "title": "AI & Machine Learning Conference",
+    "description": "Explore the latest trends in AI, ethics, generative models, and real-world applications with industry leaders.",
+    "date": "2026-04-08T08:00:00Z",
+    "endDate": "2026-04-09T18:00:00Z",
+    "location": "San Francisco Convention Center",
+    "capacity": 800,
+    "registeredCount": 0,
+    "category": "Technology",
+    "isFree": false,
+    "price": 399.99,
+    "imageUrl": "https://example.com/images/ai-conference.jpg",
+    "status": "upcoming"
+  },
+  {
+    "title": "Local Food & Wine Tasting",
+    "description": "Sample wines from regional vineyards paired with dishes from top local chefs.",
+    "date": "2026-03-15T18:00:00Z",
+    "endDate": "2026-03-15T22:00:00Z",
+    "location": "Downtown Vineyard, Napa Valley",
+    "capacity": 120,
+    "registeredCount": 0,
+    "category": "Food & Drink",
+    "isFree": false,
+    "price": 75.00,
+    "imageUrl": "https://example.com/images/wine-tasting.jpg",
+    "status": "upcoming"
+  },
+  {
+    "title": "Charity Run for Education",
+    "description": "5K and 10K run to raise funds for local school programs. All fitness levels welcome!",
+    "date": "2026-05-02T08:00:00Z",
+    "location": "City Lake Trail, Chicago",
+    "capacity": 1000,
+    "registeredCount": 0,
+    "category": "Sports",
+    "isFree": false,
+    "price": 35.00,
+    "imageUrl": "https://example.com/images/charity-run.jpg",
+    "status": "upcoming"
+  }
+]
